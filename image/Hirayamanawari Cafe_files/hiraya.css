@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./image/cup-coffee-dark-background-aesthetic-photo-coffee-international-coffee-day_676179-771 (1).jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+.header-content h2{
+  font-size: 4vmin;
+}
+.line{
+  width: 150px;
+  height: 4px;
+ background: #555151;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.header-content{
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.barmenu {
+  width: 100%;
+  padding-top: 10px;
+  border: 1px solid black;
+  background-color: #000;
+  position: absolute;
+  box-shadow: 12px 20px 90px rgba(0, 0, 0, 0.9);
+  opacity: 0.9;
+}
+
+.ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  display: inline-block;
+  margin-left: 20px; 
+}
+
+.list li:first-child {
+  margin-left: 0; 
+}
+
+.list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+
+.icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: white;
+  opacity: 1;
+  cursor: pointer
+}
+.list li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+.page {
+  background-image: url('./image/1634571683-coffeehero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cafe-item {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  opacity: 1;
+  cursor: pointer;
+}
+.cafe-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cafe-item h2, .cafe-item p, .cafe-item span {
+  margin: 0;
+  color: white;
+}
+
+
+
+.Ice cafe-item{
+opacity: 1;
+cursor: pointer;
+}
+
+
+.Ice cafe-item {
+  opacity: 1;
+  cursor: pointer;
+}
+.menu2-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Ice cafe-item {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  opacity: 1;
+  cursor: pointer;
+}
+.Ice cafe-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Ice cafe-item h2, .cafe-item p, .cafe-item span {
+  margin: 0;
+  color: white;
+}
+
+
+.Cake cafe-item{
+opacity: 1;
+cursor: pointer;
+}
+
+
+.Cake cafe-item{
+  opacity: 1;
+  cursor: pointer;
+}
+.menu3-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Cake cafe-item {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  opacity: 1;
+  cursor: pointer;
+}
+.Cake cafe-item {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Cake cafe-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Cake cafe-item h2, .cafe-item p, .cafe-item span {
+  margin: 0;
+  color: white;
+}
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+h4 {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  .barmenu {
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+  }
+
+  .menu-toggle {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+  }
+
+  .list {
+      display: none;
+      width: 100%;
+      background-color: #000;
+      text-align: center;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      opacity: 0.9;
+      z-index: 1;
+  }
+
+  .list.active {
+      display: block;
+  }
+
+  .list li {
+      display: block;
+      margin: 0;
+  }
+
+  .list li a {
+      font-size: 16px;
+      padding: 10px 0;
+  }
+  
+}
+h4 {
+  font-size: 50px; 
+}
+
+h3 {
+  font-size: 60px; 
+}
+
+@media screen and (max-width: 768px) {
+h4 {
+  font-size: 25px; 
+}
+
+h3 {
+  font-size: 30px; 
+}
+}
